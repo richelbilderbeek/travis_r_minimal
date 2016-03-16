@@ -7,7 +7,7 @@ Description: This is a minimal R package tested by Travis CI.
     A minimal R package has a documented function and a test of that function.
     This package is part of the Travis R tutorial.
 Depends:
-    R (>= 3.2.4)
+    R (>= 3.2.3)
 License: file LICENSE
 LazyData: true
 RoxygenNote: 5.0.1
