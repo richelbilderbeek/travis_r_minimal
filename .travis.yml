@@ -2,5 +2,5 @@ language: r
 warnings_are_errors: true
 cache: packages
 
-script:
+after_failure:
  - cat '/home/travis/build/richelbilderbeek/travis_r_minimal/minimal.Rcheck/00install.out'
