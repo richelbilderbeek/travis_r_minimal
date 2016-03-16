@@ -1,5 +1,15 @@
-# Sample .travis.yml for R projects
-
 language: r
 warnings_are_errors: true
+cache: packages
 sudo: required
+
+r_github_packages:
+  - jimhester/lintr
+  - jimhester/covr
+
+after_success:
+  - Rscript -e 'lintr::lint_package()'
+  - Rscript -e 'library(covr); codecov()'
+
+
+
