@@ -12,3 +12,7 @@ The goal of this project is to have a clean Travis CI build of this R package, w
  * Documentation: minimal function description
  * Vignettes: no
  * Rcpp: no
+
+## More complex setups
+
+ * [travis_r_vignette](https://github.com/richelbilderbeek/travis_r_vignette): add a vignette
